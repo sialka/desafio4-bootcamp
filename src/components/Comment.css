@@ -1,0 +1,19 @@
+article#comment ul li{  
+  display: flex;  
+  align-items: center;
+  justify-content: baseline;  
+  list-style: none;
+}
+
+
+article#comment ul li p span{
+  font-weight: bolder;
+  padding-right: 5px;  
+}
+article#comment ul li p{
+  background-color: #EEE;
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 12px;
+}

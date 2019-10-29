@@ -1,0 +1,36 @@
+header{  
+  background-color: #4A90E2;
+  height: 64px;  
+  padding: 0 25px;
+}
+
+header#main-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  
+}
+
+header#main-header a {
+  display: flex;
+}
+
+header#main-header a img{
+  height: 24px;
+}
+
+header#main-header nav img{
+  display: flex;
+  border-radius: 50%;
+  margin-left: 7px;
+}
+
+header#main-header nav a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #FFF;
+  font-weight: bold;
+  font-style: none;
+  text-decoration: none;
+}
